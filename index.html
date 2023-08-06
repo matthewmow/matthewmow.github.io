@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Chatbot-d</title>
+        <title>Chatbot-e</title>
     </head>
     <body>
         <div id="chatbox"></div>
         <input id="inputbox" type="text">
-        <button onclick="sendMessage()">Send a</button>
+        <button onclick="sendMessage()">Send e</button>
 
         <script>
             function sendMessage() {
                 var message = document.getElementById('inputbox').value;
-                fetch(https://sl360chatbot-704eb1f8f6a2.herokuapp.com, {
+                fetch('https://sl360chatbot-704eb1f8f6a2.herokuapp.com/api', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
